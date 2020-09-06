@@ -8,10 +8,10 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+/* 
 div, p, h3, h4 {
   border: 1px red solid;
-}
+} */
 
 .header {
   height: 100vh;
@@ -22,14 +22,6 @@ div, p, h3, h4 {
   position: relative;
   display: flex;
   align-items: center;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .logo {
@@ -64,6 +56,7 @@ div, p, h3, h4 {
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -133,6 +126,10 @@ div, p, h3, h4 {
   font-weight: bold;
 }
 
+.digits {
+  margin: 100px 0;
+}
+
 .section-title {
   width: 60%;
   margin: 0 auto 20px;
@@ -193,14 +190,15 @@ div, p, h3, h4 {
   background-size: 867px 637px;
   background-repeat: no-repeat;
   background-color: #f2f2f2;
+  padding-top: 100px;
+  margin: 0;
 }
 
 .feinman__title {
   width: 648px;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 70px;
+  margin: 0 auto 70px;
+  
   z-index: 1;
   line-height: 1.15;
   font-size: 120px;
@@ -213,7 +211,6 @@ div, p, h3, h4 {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-
 }
 
 .feinman__link {
@@ -226,3 +223,48 @@ div, p, h3, h4 {
   text-decoration: none;
   color: black;
 }
+
+.kaufman {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  padding-top: 90px;
+}
+
+.table__theme_dark {
+  margin-bottom: 90px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+ .section-title_theme_dark {
+   color: white;
+   line-height: 69px;
+ }
+
+ .section-subtitle_theme_dark {
+   color: white;
+ }
+
+ .table__text_theme_dark {
+   margin-bottom: 0px;
+ }
+
+ .kaufman__triangle {
+   position: absolute;
+   background-image: url("../images/kaufman-triangle.svg");
+   width: 877px;
+   height: 877px;
+   right: -210px;
+   bottom: 0px;
+   background-size: contain;
+   background-position: center;
+   top: 0;
+ }
