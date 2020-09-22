@@ -6,11 +6,3 @@
         transform: rotate(360deg);
     }
 }
-
-.header__square-pic {
-    animation: rotation 20s linear infinite;
-}
-
-.header {
-    overflow: hidden;
-}
