@@ -6,4 +6,4 @@
 1. HTML
 2. CSS
 
-Структура проекта организовано по [БЭМ методологии](https://ru.bem.info/methodology/)
+Структура проекта организована по [БЭМ методологии](https://ru.bem.info/methodology/)
