@@ -1,9 +1,15 @@
 # How to Learn
-------
-## Описани проекта
-Проект представляет собой одностраничный сайт, несущий в себе полезные советы по обучению. 
-В проекте используются следующие технологии: 
-1. HTML
-2. CSS
+_______
+:rocket: [How to Learn Project Link](https://tatianaryzhova.github.io/how-to-learn/)
 
-Структура проекта организована по [БЭМ методологии](https://ru.bem.info/methodology/)
+## Project description:
+
+A static website where you can find helpful hints how to improve your learning process.
+
+## Tech stack:
+
+:small_blue_diamond: HTML
+
+:small_blue_diamond: CSS
+
+The structure of the project is organized by [BEM methodology](https://ru.bem.info/methodology/)
